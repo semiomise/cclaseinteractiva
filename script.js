@@ -119,6 +119,12 @@ function endCase() {
         <h2>Conclusión del Caso Clínico</h2>
         <p id="final-message">Este caso clínico ejemplifica la progresión de una patología biliar a complicaciones graves como pancreatitis y peritonitis. La detección precoz y el diagnóstico preciso de estas complicaciones son cruciales para optimizar el manejo clínico y mejorar el pronóstico del paciente.</p>
         <button onclick="startOver()">Reiniciar Caso</button>
+
+        <!-- Aquí agregamos la imagen del código QR -->
+        <div id="qr-container">
+            <h3>Escanea este código para completar la evaluación:</h3>
+            <img src="qrcode.png" alt="Código QR para la evaluación" id="qr-code">
+        </div>
     `;
 }
 

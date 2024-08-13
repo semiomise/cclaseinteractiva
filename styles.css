@@ -64,3 +64,13 @@ button:focus {
     color: #333;
     margin-top: 40px;
 }
+#qr-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#qr-code {
+    width: 300px; /* Aumenta el tamaño según tu preferencia */
+    height: auto;
+    margin-top: 20px;
+}
